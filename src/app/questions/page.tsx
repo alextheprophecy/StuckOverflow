@@ -1,14 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Search, ChevronDown, ChevronUp, Clock, ArrowUpRight, Bookmark } from 'lucide-react'
+import {ChevronDown, ChevronUp, Clock, ArrowUpRight, Bookmark } from 'lucide-react'
 
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
-import { Answers } from '@/components/ui/answers/answers'
-import { R_Side } from '@/components/ui/side-contents/r_side'
-import { Navbar } from '@/components/ui/navbar/navbar'
-import Urls_Side from '@/components/ui/side-contents/urls_side'
+import { Answers } from '@/components/answers/answers'
+import { R_Side } from '@/components/side-contents/r_side'
+import { Navbar } from '@/components/navbar/navbar'
 
 export default function Questions() {
   return (

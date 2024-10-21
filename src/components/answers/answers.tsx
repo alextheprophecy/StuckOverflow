@@ -43,7 +43,7 @@ export const Answers = () => {
             </div>
 
             <div className="flex space-x-2 mb-4">
-                <Button variant="secondary" className="bg-orange-500 text-white">1</Button>
+                <Button className="bg-orange-500 text-white">1</Button>
                 <Button variant="outline">2</Button>
                 <Button variant="outline">Next</Button>
             </div>
